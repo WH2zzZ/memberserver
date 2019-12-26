@@ -1,0 +1,15 @@
+spring:
+  application:
+    name: memberserver
+  profiles:
+    active: default
+  cloud:
+    config:
+      #Config server的uri
+      uri: http://127.0.0.1:9000/
+      #指定的环境
+      profile: default
+      #指定分支
+      label: master
+
+
